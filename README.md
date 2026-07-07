@@ -205,43 +205,6 @@
 
 ## Alur Aplikasi
 
-```
-                    +-------------------------------------------+
-                    |         LANDING PAGE (/)                   |
-                    |   Hero . Features . Pricing . About        |
-                    |   Testimonials . Contact . Footer           |
-                    +---------------------+---------------------+
-                                         |
-                                +--------v--------+
-                                |   AUTH (/auth)  |
-                                |  Login/Register  |
-                                +--------+--------+
-                                         |
-                    +---------------------+---------------------+
-                    |                     |                     |
-              +-----v-----+       +------v------+       +-----v-----+
-              |   ADMIN   |       |    USER     |       | INSTRUCTOR |
-              | (role=adm)|       | (role=user) |       |(role=inst) |
-              +-----+-----+       +------+------+       +-----+-----+
-                    |                    |                     |
-         +----------+----------+        |            +--------+--------+
-         |          |          |        |            |        |        |
-    Dashboard  Manage    View   +------v------+  Dashboard  Manage  Chat
-    Admin      Mentor   Trans- |             |  Modules   w/
-              & Member  actions |  Dashboard  |  & Videos  Members
-                                |  Library    |
-                                |  Learning   |
-                                |  Editor     |
-                                |  Profile    |
-                                |  Chatbot*   |
-                                |  Chat M.*   |
-                                |  Settings   |
-                                +------+------+
-                    * = Premium feature
-```
-
----
-
 ## Live Code Editor
 
 Code editor online mendukung eksekusi kode untuk 12 bahasa pemrograman. Jika runtime terinstal di server, kode akan dikompilasi/dijalankan secara native. Jika tidak, tersedia **mode simulasi** yang menangani syntax dasar (print, echo, console.log, dll).
